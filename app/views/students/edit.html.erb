@@ -1,0 +1,9 @@
+<h1>Update a student</h1>
+
+<%= form_with model: @student do |f|%>
+<%= f.text_field :name, placeholder: "Enter your name" %>
+<%= f.text_field :age, placeholder: "Enter your age" %>
+<%= f.submit %>
+
+
+<% end %>
